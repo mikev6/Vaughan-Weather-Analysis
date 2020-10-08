@@ -50,6 +50,10 @@ This project promps the user for the API key, which is then used to gather the d
     60 calls/minute
     1000 calls/hour
     1,000,000 calls/month
+
+The jupyte notebook has two blocks; one that retrieves and organizes the data, and one that plots the data.
+
+The Technical Report is located in a block below that.
   
 
 
