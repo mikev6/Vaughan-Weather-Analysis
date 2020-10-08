@@ -2,11 +2,11 @@
   Analyzing weather on the opposite side of the world
   
 ## Overview
-This script displays current weather temperature in cities in North and South America, and compares that to the temperature on the exact opposite side of the world. I initially only invluded cities in America, but I wanted to get more diverse data, and get more trending data.
+This script displays current weather temperature in cities in North and South America, and compares that to the temperature on the exact opposite side of the world. I initially only included cities in the United States, but I wanted to get more diverse data, and observe wider data trends.
 It uses the OpenWeatherMap.org API to gather this data. 
 
 ## Goals
-Implement the OpenWeatherMap API, as this is something I have not done before, to get current weather data. The API has a lot of other functionality, but I only needed two different calls to implement this. 
+The initial goal of this project was to implement the OpenWeatherMap API, as this is something I have not done before, to get current weather data. The API has a lot of other functionality, but I only needed two different calls to implement this. 
 The second goal was to use the data gathered by the API to and  the tools learned in class, such as Pandas DataFrames and matplotlib, to provide quantitavive and visual analysis with this data.
 
 ## Motivation/Background
@@ -21,13 +21,15 @@ I'm not aware of anyone doing this specifically, but these two resources were he
   https://stackoverflow.com/questions/28056171/how-to-build-and-fill-pandas-dataframe-from-for-loop/42670389
   
   
-## Table of Content-Navigation
+## Table of Content
 The code can be found at the following link:
   https://github.com/mikev6/mv6-Weather-Analysis/tree/main/code
-This code reaches out to OpenWeatherMao.org and organizes the data in a Pandas DataFrame
+The report is in the Jupyer notebook, below the code.
+This code reaches out to OpenWeatherMao.org and organizes the data in a Pandas DataFrame. The graphs are written to this location:
+  https://github.com/mikev6/mv6-Weather-Analysis/tree/main/plots
 
 
-## Software Requirements - Packages used (10/-)	- What packages and dependencies are required to be able to use the API, Webscraping script or the notebook? 
+## Software Requirements
 Packages that were used were the following:
   requests
   json
@@ -37,8 +39,8 @@ Packages that were used were the following:
 ## Data 
 The datafile can be found here:
   https://github.com/mikev6/mv6-Weather-Analysis/tree/main/data
-Number of rows:
-Number of columns:
+Number of rows: 30 (not including header row)
+Number of columns: 6 (not including indexing
 
 The OpwnWeatherMap.org API is required to run the script. Here is the link to getting the OWM API:
   https://openweathermap.org/appid#get
